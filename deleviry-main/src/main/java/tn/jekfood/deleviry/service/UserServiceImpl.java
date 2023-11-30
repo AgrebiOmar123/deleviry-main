@@ -22,7 +22,7 @@ public class UserServiceImpl implements UserService{
 
 	private UserRepository userRepository;
 	
-	@Autowired
+	
 	private BCryptPasswordEncoder passwordEncoder;
 	
 	public UserServiceImpl(UserRepository userRepository) {
